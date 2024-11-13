@@ -4,5 +4,5 @@ types-redis
 uvicorn
 pandas
 numpy
-sklearn
+scicket-learn
 joblib
