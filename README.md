@@ -21,7 +21,7 @@ Before you proceed with the setup, ensure that you have the following prerequisi
 
 3.Run the following command to clone the repository:
 ```
-git clone https://github.com/Adityapratapsingh28/Customer_Churn_Prediction-with-FastAPI.git
+git clone https://github.com/abderrahmenbenarous/MLOps
 ```
 4.Get into the directory using
 ```
