@@ -1,17 +1,18 @@
+# Utiliser une image Python légère comme base
 FROM python:3.8.8-slim-buster
 
-# Working Directory
+# Définir le répertoire de travail
 WORKDIR /app
 
-# Copy source code to working directory
-COPY . app.py /app/
+# Copier les fichiers nécessaires dans l'image
+COPY . /app/
 
-# Install packages from requirements.txt
-# hadolint ignore=DL3013
-RUN pip install --no-cache-dir --upgrade -r requirements.txt
+# Installer les dépendances
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 8080
+# Exposer le port utilisé par l'application
+EXPOSE 8000
 
-ENTRYPOINT [ "python" ]
-
-CMD [ "uvicorn","app.py" ]
+# Commande pour démarrer l'application
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
