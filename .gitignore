@@ -1,0 +1,32 @@
+# Exclure le répertoire virtuel Python
+venv/
+.env/
+*.env
+
+# Exclure les fichiers de cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Exclure les fichiers de cache généraux
+.cache/
+*.log
+*.tmp
+*.bak
+
+# Exclure les fichiers de checkpoints (générés par des outils comme Jupyter ou d'autres frameworks)
+checkpoints/
+.ipynb_checkpoints/
+*.checkpoint
+
+# Exclure les fichiers temporaires d'éditeurs ou d'IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Exclure les fichiers spécifiques à Docker
+docker-compose.override.yml
+.env.docker
+.env.local
+.env.test
