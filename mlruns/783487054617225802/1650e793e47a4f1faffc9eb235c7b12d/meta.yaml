@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/abder/Customer_Churn_Prediction-with-FastAPI/mlruns/783487054617225802/1650e793e47a4f1faffc9eb235c7b12d/artifacts
+end_time: 1734788573274
+entry_point_name: ''
+experiment_id: '783487054617225802'
+lifecycle_stage: active
+run_id: 1650e793e47a4f1faffc9eb235c7b12d
+run_name: peaceful-chimp-938
+run_uuid: 1650e793e47a4f1faffc9eb235c7b12d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734788534153
+status: 3
+tags: []
+user_id: abderrahmen

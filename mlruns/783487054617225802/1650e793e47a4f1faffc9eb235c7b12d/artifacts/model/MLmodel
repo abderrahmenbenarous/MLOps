@@ -1,0 +1,30 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.0
+mlflow_version: 2.18.0
+model_size_bytes: 17232502
+model_uuid: 1b740a8c15604065943bce3a10352a7a
+run_id: 1650e793e47a4f1faffc9eb235c7b12d
+signature:
+  inputs: '[{"type": "double", "name": "CreditScore", "required": true}, {"type":
+    "string", "name": "Gender", "required": true}, {"type": "integer", "name": "Age",
+    "required": true}, {"type": "integer", "name": "Tenure", "required": true}, {"type":
+    "double", "name": "Balance", "required": true}, {"type": "integer", "name": "NumOfProducts",
+    "required": true}, {"type": "boolean", "name": "HasCrCard", "required": true},
+    {"type": "boolean", "name": "IsActiveMember", "required": true}, {"type": "double",
+    "name": "EstimatedSalary", "required": true}]'
+  outputs: '[{"type": "integer", "name": "Exited", "required": true}]'
+  params: null
+utc_time_created: '2024-12-21 13:42:16.740026'

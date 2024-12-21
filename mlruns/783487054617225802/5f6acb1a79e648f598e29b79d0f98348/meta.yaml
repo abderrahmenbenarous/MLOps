@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/abder/Customer_Churn_Prediction-with-FastAPI/mlruns/783487054617225802/5f6acb1a79e648f598e29b79d0f98348/artifacts
+end_time: 1734785403601
+entry_point_name: ''
+experiment_id: '783487054617225802'
+lifecycle_stage: active
+run_id: 5f6acb1a79e648f598e29b79d0f98348
+run_name: overjoyed-midge-703
+run_uuid: 5f6acb1a79e648f598e29b79d0f98348
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734785365510
+status: 3
+tags: []
+user_id: abderrahmen

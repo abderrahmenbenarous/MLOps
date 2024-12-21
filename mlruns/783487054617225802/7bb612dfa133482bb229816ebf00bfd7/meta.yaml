@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/abder/Customer_Churn_Prediction-with-FastAPI/mlruns/783487054617225802/7bb612dfa133482bb229816ebf00bfd7/artifacts
+end_time: 1734784261207
+entry_point_name: ''
+experiment_id: '783487054617225802'
+lifecycle_stage: active
+run_id: 7bb612dfa133482bb229816ebf00bfd7
+run_name: likeable-vole-809
+run_uuid: 7bb612dfa133482bb229816ebf00bfd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734784258588
+status: 4
+tags: []
+user_id: abderrahmen

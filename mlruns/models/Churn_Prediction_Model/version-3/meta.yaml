@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1734788573093
+current_stage: None
+description: null
+last_updated_timestamp: 1734788573093
+name: Churn_Prediction_Model
+run_id: 1650e793e47a4f1faffc9eb235c7b12d
+run_link: null
+source: file:///mnt/c/Users/abder/Customer_Churn_Prediction-with-FastAPI/mlruns/783487054617225802/1650e793e47a4f1faffc9eb235c7b12d/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///mnt/c/Users/abder/Customer_Churn_Prediction-with-FastAPI/mlruns/783487054617225802/1650e793e47a4f1faffc9eb235c7b12d/artifacts/model
+user_id: null
+version: 3

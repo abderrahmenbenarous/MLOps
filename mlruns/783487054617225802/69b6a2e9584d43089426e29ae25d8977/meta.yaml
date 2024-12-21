@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/abder/Customer_Churn_Prediction-with-FastAPI/mlruns/783487054617225802/69b6a2e9584d43089426e29ae25d8977/artifacts
+end_time: 1734786612318
+entry_point_name: ''
+experiment_id: '783487054617225802'
+lifecycle_stage: active
+run_id: 69b6a2e9584d43089426e29ae25d8977
+run_name: redolent-dog-528
+run_uuid: 69b6a2e9584d43089426e29ae25d8977
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734786569723
+status: 3
+tags: []
+user_id: abderrahmen
